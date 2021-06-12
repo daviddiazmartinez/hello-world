@@ -5,7 +5,7 @@ import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Good bye World :(");
+        System.out.println("Good bye World :)");
         int day=5;
 
         switch (day){
@@ -56,7 +56,7 @@ public class Main {
             if(i==input.length-1){
                 input[i] *= initial;
             }else {
-                input[i] *= input[i+1];giq
+                input[i] *= input[i+1];
             }
         } return input;
     }
@@ -64,7 +64,7 @@ public class Main {
     public static int[] invertPosition (int[] input){
         int[] invertArray = new int[input.length];
         int indexPosition = 0;
-        for(int i=input.length-1; i>git=0;i--){
+        for(int i=input.length-1; i>=0;i--){
             invertArray[indexPosition] = input[i];
             indexPosition++;
         }
